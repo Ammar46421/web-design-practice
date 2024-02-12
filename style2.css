@@ -50,7 +50,7 @@ li {
 
 li a {
     color: rgb(255, 255, 255);
-    font-size: 25px;
+    font-size: 20px;
     font-weight: bold;
     margin-right: 25px;
     text-decoration: none;
@@ -61,7 +61,7 @@ li a {
 
 li a:hover {
     background-color: rgb(0, 0, 0);
-    /* text-transform: uppercase; */
+    /* text-trans.Form: uppercase; */
 
 }
 
@@ -70,7 +70,7 @@ li a:hover {
     /* background-color: #04AA6D; */
     /* color: white; */
     color: rgb(255, 255, 255);
-    font-size: 25px;
+    font-size: 20px;
     font-weight: bold;
     margin-right: 25px;
     text-decoration: none;
@@ -111,4 +111,97 @@ li a:hover {
 /* Change the background color of the dropdown button when the dropdown content is shown */
 .dropdown:hover .dropbtn {
     background-color: #fc0000;
+}
+
+/* article */
+
+#Container {
+    display: flex;
+    justify-content: space-Around;
+    
+}
+
+.info{
+    margin: 20px 20px;
+   max-width: 600px; 
+}
+
+.info h2{
+    font-family: monospace;
+    font-size: 45px;
+    
+}
+/* Login Div */
+.login-box {
+    width: 460px;
+    height: 330px;
+    display: block;
+    margin-top: 20px;
+    background-color: rgb(228, 227, 227);
+    border: solid;
+    border-radius: 3px;
+    max-width: 600px;
+    
+}
+
+h1 {
+    text-align: center;
+    padding-top: 20px;
+}
+
+.Form {
+    padding-left: 18px;
+    width: 400px;
+}
+
+.Form label {
+    display: flex;
+    margin-top: 20px;
+    font-size: 18px;
+
+}
+
+.Form input {
+    width: 100%;
+    padding: 7px;
+    border: none;
+    border: 1px solid gray;
+    border-radius: 6px;
+    outline: none;
+}
+
+input[type=submit] {
+    width: 415px;
+    height: 35px;
+    margin-top: 20px;
+    border: none;
+    background-color: #19c1a2;
+    color: white;
+    font-size: 20px;
+}
+
+
+
+p {
+
+    font-size: 15px;
+    text-align: center;
+}
+
+.p2 {
+    text-align: center;
+    padding-top: -10px;
+    font-size: 18px;
+    color: rgb(0, 0, 0);
+}
+
+.p2 a {
+    color: #19c1a2;
+    text-decoration: none;
+}
+
+.hp {
+    color: #c1be19;
+    text-decoration: none;
+    font-size: 400%;
 }
